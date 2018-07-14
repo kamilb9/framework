@@ -1,0 +1,29 @@
+:root{font-size: $root_font_size; line-height: 1.35}
+body{font-family: 'Open Sans', sans-serif;}
+h1, h2, h3, h4, h5, h6{font-weight: 700;}
+h1{font-size: 3.5rem}
+h2{font-size: 3rem}
+h3{font-size: 2.5rem}
+h4{font-size: 2rem}
+h5{font-size: 1.5rem}
+h6{font-size: 1rem}
+p{font-size: 1rem; }
+
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+.text-left{text-align: left;}
+.text-justify{text-align: justify;}
+.text-uppercase{text-transform: uppercase;}
+
+ol{font-size: 1.1rem; padding: 0 0 0 0.5rem; list-style-position: inside;
+    li{margin: 2px 0}
+    &.list-lower-alfa{list-style-type: lower-alpha;}
+}
+
+ul{font-size: 1.1rem; padding: 0 0 0 0.5rem; list-style-position: inside;
+    li{margin: 0.25rem 0; 
+        span{margin-left: -0.5rem;}}
+    &.list-unstyled{list-style-type: none;}
+    &.list-square{list-style-type: square;}
+    &.list-circle{list-style-type: circle;}
+}
